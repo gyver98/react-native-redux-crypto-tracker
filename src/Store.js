@@ -25,4 +25,10 @@ const Store = createStore(
   )
 );
 
+//const composeEnhancers = devTools({ name: Platform.OS, hostname: 'localhost', port: 8000 });
+// const Store = createStore(
+//   RootReducer,
+//   devTools(applyMiddleware(thunk, promise, logger))
+// )
+
 export default Store;
